@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanjeevan — Air Quality Intelligence</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #1e293b;
+      border-radius: 24px;
+      padding: 48px 40px;
+      max-width: 480px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.4);
+    }
+    .dot {
+      width: 16px; height: 16px;
+      background: #4f46e5;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 8px;
+    }
+    h1 { font-size: 2.2rem; font-weight: 800; margin: 16px 0 8px; }
+    .tagline {
+      color: #94a3b8;
+      font-size: 1rem;
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 36px;
+      text-align: left;
+    }
+    .feature {
+      background: #0f172a;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 0.85rem;
+      color: #cbd5e1;
+    }
+    .feature span { color: #818cf8; margin-right: 6px; }
+    .download-btn {
+      display: inline-block;
+      background: #4f46e5;
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 16px 40px;
+      border-radius: 14px;
+      text-decoration: none;
+      transition: background 0.2s;
+      box-shadow: 0 8px 24px rgba(79,70,229,0.4);
+    }
+    .download-btn:hover { background: #4338ca; }
+    .note {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: #64748b;
+      line-height: 1.6;
+    }
+    .team {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #334155;
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+    .badge {
+      display: inline-block;
+      background: #064e3b;
+      color: #34d399;
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div>
+      <span class="dot"></span>
+      <span style="font-weight:700; font-size:1.4rem; letter-spacing:0.5px">Sanjeevan</span>
+    </div>
+    <h1>Breathe Smarter</h1>
+    <p class="tagline">
+      A mobile-first air quality intelligence app for urban India —
+      real-time AQI, 72h forecasts, health guidance, and global city rankings.
+    </p>
+    <span class="badge">✓ Android APK — Free to Install</span>
+    <div class="features">
+      <div class="feature"><span></span>Live AQI Dashboard</div>
+      <div class="feature"><span></span>Global City Rankings</div>
+      <div class="feature"><span></span>72h AQI Forecast</div>
+      <div class="feature"><span></span>Pollution Origins</div>
+      <div class="feature"><span></span>Health Guidance</div>
+      <div class="feature"><span></span>Dark Mode</div>
+    </div>
+    <a class="download-btn" href="APK LINK" download>
+      ⬇ Download APK
+    </a>
+    <p class="note">
+      Android only · Enable "Install from unknown sources" in<br/>
+      Settings → Security before installing
+    </p>
+    <div class="team">
+      Payal Kumkale · Aarya Hingane · Vidushi Chilka · Maviya Sayed<br/>
+      School of Computing, MIT ADT University, Pune
+    </div>
+  </div>
+</body>
+</html>
