@@ -11,7 +11,7 @@ import {
 } from '../types';
 import { getWeatherSnapshot } from './openMeteoService';
 
-const OPENAQ_API_KEY = '68718f2eed5dcfeba30cf9728f5a615b5604867e3ba79c259631ea98a04b0b30';
+const OPENAQ_API_KEY = 'f2bbbc36c01ac48f869db0f187974acb9cd6830939ee8035d1c1d8101f30c2f3';
 const OPENAQ_BASE_URL = 'https://api.openaq.org/v3';
 const CACHE_KEY = 'sanjeevan:openaq-cache:v2';
 const CACHE_TTL_MS = 15 * 60 * 1000;
